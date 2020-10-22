@@ -111,11 +111,9 @@ public class Question {
 
 
 
-    int goodTries = 0;
     int count = 0;
     int NUM_TRIES = 10;
-    int right = 0;
-    int wrongGuesses = 0;
+
 
     int randomPosition = (int) Math.floor(Math.random() * cityList.length);
     String word = cityList[randomPosition];
@@ -127,13 +125,11 @@ public class Question {
 
     System.out.println("Guess the city...");
     Scanner in = new Scanner(System.in);
-    // System.out.println(new String(builder));
     System.out.println(underscoreCity);
     // Scanner guessLetter = new Scanner(System.in);
     System.out.println("Guess a letter: ");
     // System.out.println(builder);
     boolean win = false;
-    boolean letterCorrect;
     while (win == false) {
       boolean foundLetter;
       char letterIntroduced = in.next().charAt(0);
