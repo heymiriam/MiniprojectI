@@ -154,7 +154,7 @@ public class Question {
         }
       }
 
-      if (Arrays.equals(letters, underscoreCity) && count<=10) {
+      if (Arrays.equals(letters, underscoreCity)) {
         System.out.println("You win. The word is " + word);
         break;
       }
