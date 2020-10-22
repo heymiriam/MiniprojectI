@@ -5,15 +5,7 @@ import java.util.Scanner;
 
 public class Question {
   public static void main(String[] args) {
-    // StringBuilder underscoreWordSpaces;
-    // underscoreWordSpaces = initializeunderscoreWordSpaces();
-    //  /** Creamos un String que contenga un array con las ciudades del txt
-    //   * Aplicamos el método math random para que seleccione un numéro al azar que
-    //   * se corresponda con una ciudad
-    //   * Imprimimos nombre de la ciudad
-    //   **/
-    // Esto es para saber cuantas ciudades hay en la lista
-    //  public Question(){
+
     final String[] cityList = {
       "Chongqing",
       "Shanghai",
@@ -160,7 +152,7 @@ public class Question {
       }
       System.out.println("Guess the city:");
       System.out.println(underscoreCity);
-      //System.out.println("Wrong letters");
+      //System.out.println("Wrong character");
     }
   }
   }
